@@ -22,9 +22,8 @@
 - 문제 1개 = 커밋 1개
 ---
 
-
 ## 디렉토리 구조
 - notes / mistakes.md
-  - 실수 기록
-- 플랫폼-난이도-문제번호
-  - ex) programmers.lv0.p001.Solution
+  - 자주 실수하는 패턴 기록
+- 플랫폼-난이도-문제번호(pk)_slug(문제 영어로 짧게 요약해서)
+  - ex) programmers.lv0.p340206_001_angle_sum.Solution
