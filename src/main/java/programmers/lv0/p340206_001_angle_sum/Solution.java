@@ -1,4 +1,4 @@
-package programmers.lv0.p001;
+package programmers.lv0.p340206_001_angle_sum;
 
 import java.util.Scanner;
 
