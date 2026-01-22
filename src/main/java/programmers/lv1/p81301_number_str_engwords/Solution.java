@@ -1,8 +1,5 @@
 package programmers.lv1.p81301_number_str_engwords;
 
-/**
- * 은광이형 방식대로
- */
 public class Solution {
 
     public int solution(String s) {
