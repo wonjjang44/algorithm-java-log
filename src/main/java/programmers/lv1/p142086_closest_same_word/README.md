@@ -19,3 +19,11 @@
 ## 회고
 - 중복되는 글자의 기준을 잡지 못하여 시간이 오래 걸림
 - indexOf 메서드 사용을 고려했지만 같은 글자가 나오는 시점에 거리 계산 시 꼬여 lastIndexOf 사용
+  - 중복되는 문자가 2개 이상이라면 값들 중 가장 가까운 값을 사용하기 위함
+  - ex)
+    - ban a 의 index => 1
+    - bana a의 index => 3
+    - banana a의 index => 5
+  - indexOf 사용 시 a의 index는 항상 1이 나옴
+  - 문자열이 append 될 때 마다 a의 인덱스를 새롭게 저장해야 하지만 1이 고정으로 저장되어 위치값 계산이 틀어짐
+  - lastIndexOf 사용 시 a는 1, 3, 5의 값을 가짐(append 될 때 마다)
