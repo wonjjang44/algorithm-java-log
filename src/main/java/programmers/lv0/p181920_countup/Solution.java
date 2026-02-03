@@ -1,4 +1,4 @@
-package programmers.lv0.p181920_count;
+package programmers.lv0.p181920_countup;
 
 import java.util.Arrays;
 
